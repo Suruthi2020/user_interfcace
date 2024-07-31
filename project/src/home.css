@@ -1,0 +1,365 @@
+/* navbar styling starts */
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+.headmain{
+    display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+
+}
+.fnav{
+    display: flex;
+    margin-left: 102px;
+    
+  }
+  .rnav{
+    margin-top: -28px;
+    margin-right: 7px;
+  }
+.togglebutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hamburger {
+    display: none;
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+.closeButton{
+    display: none;
+
+}
+.nav{
+    margin-top: 30px;
+    color: black;
+    margin-right: 30px ;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.navbtn{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+
+#btn1{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+#btn2{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffbc00;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+/* navabar styling ends */
+
+
+/* body styling starts */
+
+.mainsec1{
+  display: flex;
+}
+
+.moto{
+  margin-left: 76px;
+}
+#title{
+  font-weight: 700;
+    font-size: 62px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+#title1{
+  margin-top: -20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  color: rgb(14, 13, 13);
+}
+#sbold{
+  font-weight: 700;
+}
+.qman{
+  margin-right: 25px;
+}
+.banner1{
+  border-radius: 5%;
+}
+.banner1-1{
+  transform: translate(307px,-573px);
+  border-radius: 5%;
+}
+
+.flname{
+  display: flex;
+}
+.bdname{
+  margin-top: 20px;
+  display: flex;
+}
+#comments{
+  margin-top: 20px;
+}
+#lbtn{
+  margin-top: 20px;
+  width: 90px;
+  height: 35px;
+  border: 1px solid #175cff;
+  background-color: #175cff;
+  color: white;
+  border-radius: 3px;
+}
+.eform{
+  display: flex;
+}
+#eid1{
+  width: 347px;
+  height: 41px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 3px #888888;
+}
+#eid1:focus {
+  outline: none;
+}
+#freebtn{
+  margin-left: 20px;
+  width: 189px;
+  height: 41px;
+  border:1px solid #175cff;
+  background-color: #175cff;
+  color: white;
+  border-radius: 8px;
+}
+#lastname{
+  margin-left: 15px;
+}
+#devicemgmt{
+  margin-left: 15px;
+}
+
+.bnames{
+  font-weight: 500;
+}
+
+.inpfeild{
+  height: 40px;
+  border: 1px solid rgb(233, 228, 228);
+  border-radius: 3px;
+}
+.inpfeild:focus{
+  outline: none;
+}
+#txtarea{
+  width: 400px;
+  height: 80px;
+  border: 1px solid rgb(233, 228, 228);
+  border-radius: 3px;
+}
+#txtarea:focus{
+  outline: none;
+}
+#lpara{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.bulletins{
+  margin-top: 20px;
+  display: flex;
+}
+.bullet{
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.mainsec2{
+  margin-top: -100px;
+  display: flex;
+}
+.segments{
+  width: 340px;
+  height: 400px;
+  background-image: linear-gradient(to right, rgb(128, 124, 124), rgb(255, 255, 255));
+}
+.blocks{
+  margin-left: 45px;
+  transition: transform 0.3s ease-in-out;
+}
+.blocks:hover{
+  transform: scale(1.1);
+}
+.heading{
+  margin-left: 45px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.thought{
+  margin-top: -15px;
+  width: 350px;
+  height: 160px;
+  background-color: #ffbe53;
+}
+.thought1{
+  margin-top: 26px;
+  width: 350px;
+  height: 160px;
+  background-color:#ecf6ff;
+}
+.thought2{
+  margin-top: 26px;
+  width: 350px;
+  height: 160px;
+  background-color:#006c65;
+}
+.thought3{
+  margin-top: 26px;
+  width: 350px;
+  height: 160px;
+  background-color:#fff2be;
+}
+.paragraph{
+  margin-left: 40px;
+  font-size: 14px;
+  padding-top: 30px;
+}
+.quotebtn{
+  width: 200px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 10px;
+  background-color: transparent;
+  border-radius: 90px;
+  border: 2px solid orange;
+}
+.quotebtn1{
+  width: 200px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 29px;
+  background-color: transparent;
+  border-radius: 90px;
+  border: 2px solid orange;
+}
+/* body styling ends */
+
+@media screen  and (max-width: 768px){
+   
+    .togglebutton {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start !important;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        height: 500px;
+        width: 90%;
+        margin-left: -392px;
+        border-radius: 0px 20px 20px 0px;
+        transition: transform 0.3s ease-in-out; /* Smooth transition */
+      }
+      .hamburger {
+        transform: translate(-37px, 5px);
+        display: block;
+        color: rgb(12, 12, 12);
+        transition: transform 0.3s ease-in-out; /* Smooth transition */
+      }
+      .closeButton {
+        display: inline;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    .nav1{
+      display: contents;
+    }
+    .mainsec1{
+      display: block;
+    }
+    .moto{
+      margin-left: 10px;
+    }
+    #title{
+      font-size: 30px;
+    }
+    #title1{
+      font-size: 17px ;
+    }
+    #freebtn{
+      width: 100px;
+      font-weight: 900;
+      padding-top: 3px;
+      font-size: 13px;
+      margin-left: 10px;
+    }
+    .bulletins{
+      margin-top: 10px;
+    } 
+    .qman{
+      margin-top: 20px;
+    }
+    .banner1{
+      width: 400px;
+        margin-left: 20px;
+        height: 400px
+    }
+    .banner1-1{
+      transform: translate(279px, -430px);
+        width: 150px;
+        height: 100px;
+    }
+    .mainsec2{
+      display: block;
+    }
+    .blocks{
+      width: 300px;
+    }
+
+    #segment1{
+      margin-top: 10px;
+     background-image: linear-gradient(to right, #ffbe53, #ffbe53);  
+    }
+    #segment2{
+      background-image: linear-gradient(to right, #ecf6ff,#ecf6ff);  
+    }
+    #segment3{
+      background-image: linear-gradient(to right,  #006c65, #006c65);  
+    }
+    #segment4{
+      background-image: linear-gradient(to right,  #fff2be,#fff2be);  
+    }
+    .segments{
+      width: 100%;
+      margin-top: 137px;
+    }
+    .thought, .thought1,.thought2,.thought3{
+      width: 100%;
+    }
+    .quotebtn, .quotebtn1{
+      margin-left: 100px !important;
+    }
+}
